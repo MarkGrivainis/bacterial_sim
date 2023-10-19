@@ -1,11 +1,12 @@
 from functools import wraps
-import numpy as np
-from numba import jit, prange
-import matplotlib
+import time
+
 from matplotlib import rc
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-import time
+import numpy as np
+from numba import jit, prange
+
 
 # Constants
 # ========
